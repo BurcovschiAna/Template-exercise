@@ -1,0 +1,42 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3eeea;
+}
+.container {
+  text-align: center;
+  width: 1300px;
+}
+.text {
+  font-size: 15px;
+}
+.centrare {
+  margin: 0px auto;
+}
+.imagine {
+  background-color: white;
+}
+.imagine h1 {
+  font-size: 12px;
+  font-weight: normal;
+  padding: 11px;
+}
+.lista {
+  width: 700px;
+  text-align: left;
+}
+.lista h1 {
+  font-size: 20px;
+  text-align: center;
+}
+li {
+  padding: 5px;
+}
+.citat {
+  font-style: italic;
+}
+.footer {
+  font-size: 18px;
+}
+.footer a {
+  color: blue;
+}
