@@ -1,0 +1,99 @@
+body,
+h1,
+p,
+ul,
+ol,
+div {
+  margin: 0px;
+  padding: 0px;
+}
+.centrare {
+  width: 900px;
+  margin: 0px auto;
+}
+.centrare p,
+.centrare ol {
+  text-align: justify;
+}
+.culoare ul,
+.culoare p,
+.culoare h1 {
+  color: white;
+  text-align: center;
+}
+.header,
+.anunt,
+.clienti,
+.footer {
+  min-width: 900px;
+}
+.padding {
+  padding: 20px 0px;
+}
+
+.header {
+  background-color: #b80000;
+}
+.centrare h1 {
+  font-size: 20px;
+  padding: 5px 0px;
+  text-align: center;
+}
+.centrare ul {
+  list-style: none;
+}
+.lista {
+  color: red;
+  font-weight: bold;
+}
+.lista ol {
+  list-style-position: inside;
+}
+.lista h1,
+.lista span {
+  color: black;
+}
+.lista span {
+  font-weight: normal;
+}
+.anunt {
+  background-color: #ff9800;
+}
+.clienti {
+  background-color: #5f8670;
+}
+.clienti img {
+  width: 100px;
+  height: 100px;
+}
+/* Varianta 1 */
+.randul1 {
+  float: left;
+  outline: 1px solid black;
+  width: 215px;
+  margin: 5px;
+}
+.centrare img {
+  display: flex;
+  margin: auto;
+}
+/* Varianta 2 */
+.img ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.img li {
+  width: 215px;
+  line-height: 100px;
+  outline: 1px solid black;
+  margin: 5px;
+}
+.footer {
+  background-color: #820300;
+  text-align: center;
+  padding-top: 100px;
+}
+.clearfix {
+  clear: both;
+}
