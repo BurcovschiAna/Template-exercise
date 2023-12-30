@@ -1,57 +1,88 @@
+body, h1, p, ul {
+  margin:0px;
+  padding:0px;
+}
 body {
   background-color: #eee2de;
+}
+  .centrare {
+    width:1100px;
+    margin:0px auto;
+  }
+.header, .footer {
+  background-color: #45474b;
+  min-width1100px;
 }
 .meniu {
   font-size: 20px;
   min-width: 1100px;
   background-color: #45474b;
 }
+.meniu{
+  font-size:20px;
+}
 .meniu a {
   display: block;
+  padding: 10px;
+}
+.meniu a:link, .meniu a:visited{
   color: white;
   text-decoration: none;
-  padding: 0px 15px;
 }
 .meniu a:hover {
   background-color: #d0d4ca;
 }
 .meniu ul {
   display: flex;
-  width: 1150px;
-  margin: 0px auto;
+  flex-direction: row;
 }
 .meniu li {
-  line-height: 50px;
   list-style: none;
 }
 
 /**** BODY ******/
-.body {
+.content {
   background-color: white;
-  margin: 10px auto 40px;
-  width: 1100px;
+  margin: 20px auto;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   gap: 10px;
+}
+.content p {
   text-align: justify;
 }
-.col1 {
-  padding-left: 10px;
+.content img {
+  width: 100%;
 }
-.col3 {
-  padding-right: 10px;
+.left p,
+.right p,
+.footer p {
+  font-size: 15px;
+  padding: 5px 10px;
+}
+.left h1,
+.right h1,
+.footer h1 {
+  font-size: 20px;
+  padding: 5px 10px;
+}
+.middle h1 {
+  font-size: 23px;
+  padding: 5px 0px;
+}
+.middle p {
+  font-size: 18px;
+  padding: 5px 0px;
 }
 
 /****** FOOTER ******/
 footer {
   background-color: #45474b;
 }
-.footer {
+.meniu-footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  width: 1100px;
-  margin: 0px auto;
+  gap: 20px;;
 }
 .item {
   background-color: white;
