@@ -1,60 +1,75 @@
 body {
   background-color: #faf8ed;
 }
-.body {
+body,
+h1,
+p,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+wraper {
   width: 1000px;
   margin: 0px auto;
-  background-color: white;
 }
-.nav-bar {
+.meniu {
   background-color: #748e63;
   font-size: 20px;
 }
-.nav-bar a {
-  color: white;
+.meniu a {
   padding: 10px;
-  text-decoration: none;
   display: block;
 }
-.nav-bar a:hover {
+.meniu a:link,
+.meniu a:visited {
+  color: white;
+  text-decoration: none;
+}
+.meniu a:hover {
   background-color: white;
   color: #748e63;
   font-weight: bold;
 }
-.nav-bar ul {
+.meniu ul {
   display: flex;
   flex-direction: row;
   list-style: none;
-  margin: 0px;
-  padding: 0px;
 }
-
 /***** BODY ******/
-.body-0 {
+.content {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 30px;
-  padding: 5px;
+  gap: 20px;
+  background-color: white;
 }
-p {
+.content p {
   text-align: justify;
 }
-h1 {
+.main h1 {
   font-size: 25px;
 }
-th,
-td {
-  border: 1px solid;
+.main p {
+  font-size: 20px;
+}
+.table th,
+.table td {
+  border: 1px solid black;
   text-align: center;
 }
 table {
   width: 100%;
 }
-th {
+.table th {
   background-color: #d0d4ca;
 }
-img {
+.content img {
   width: 100%;
+}
+.right h1 {
+  font-size: 20px;
+}
+.right p {
+  font-size: 15px;
 }
 /***** FOOTER *****/
 .footer {
@@ -62,7 +77,8 @@ img {
   padding: 10px;
   text-align: center;
 }
-.footer a {
+.footer a:link,
+.footer a:visited {
   text-decoration: none;
   color: white;
 }
