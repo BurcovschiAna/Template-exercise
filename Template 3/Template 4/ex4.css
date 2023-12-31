@@ -1,0 +1,150 @@
+body,
+p,
+h1,
+ul,
+div {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #f5f7f8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.centrare {
+  width: 1100px;
+  margin: 0px auto;
+}
+.min {
+  min-width: 1100px;
+}
+/* NAV-BAR */
+.header {
+  background-color: #ecf2ff;
+  margin-top: 30px;
+}
+.nume ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.nume li {
+  list-style: none;
+  color: #756ab6;
+}
+.nume-site {
+  font-size: 30px;
+  font-weight: bold;
+}
+.descriere {
+  font-size: 15px;
+}
+.background-meniu1 {
+  background-color: #67729d;
+}
+.meniu ul {
+  display: flex;
+  list-style: none;
+}
+.meniu button {
+  background-color: #67729d;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
+.meniu button:hover,
+.meniu a.active1,
+.left a:hover {
+  background-color: #ac87c5;
+  color: black;
+}
+.hiden {
+  display: none;
+}
+.background {
+  background-color: #bface2;
+}
+
+.hiden-meniu > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.left a {
+  display: block;
+  padding: 10px;
+}
+.left a:link,
+.left a:visited {
+  text-decoration: none;
+  color: black;
+}
+.right ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.right a {
+  display: block;
+  padding: 10px;
+}
+.right a:link,
+.right a:visited {
+  color: black;
+  text-decoration: none;
+}
+.right a:hover,
+.right a.active2 {
+  text-decoration: underline;
+}
+/* BODY */
+.wraper {
+  background-color: white;
+}
+.wraper p {
+  text-align: justify;
+}
+.wraper img {
+  width: 100%;
+}
+.wraper > div.centrare {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
+}
+.content p {
+  font-size: 17px;
+}
+.content h1 {
+  font-size: 20px;
+}
+.sidebar h1 {
+  font-size: 17px;
+}
+.sidebar p {
+  font-size: 14px;
+}
+.wraper p,
+.wraper h1 {
+  padding: 5px 0px;
+}
+/* FOOTER */
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  margin: 20px auto;
+}
+.footer li {
+  line-height: 35px;
+  list-style: none;
+}
+.footer p,
+.footer h1 {
+  text-align: center;
+}
