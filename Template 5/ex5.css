@@ -1,0 +1,121 @@
+body,
+h1,
+p,
+ul,
+div {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #b99b6b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.centrare {
+  width: 1000px;
+  margin: 0px auto;
+}
+.color-white {
+  color: white;
+}
+.color-green {
+  color: #88ab8e;
+}
+.top {
+  padding: 25px;
+}
+.sitename h1 {
+  font-size: 45px;
+  float: left;
+}
+.descriere span {
+  font-size: 15px;
+  font-weight: normal;
+  opacity: 0.6;
+  padding: 10px;
+}
+.descriere {
+  float: right;
+}
+.wrapper {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.header {
+  padding-bottom: 20px;
+}
+.meniu {
+  background-color: black;
+}
+.meniu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.meniu a {
+  display: block;
+  padding: 20px 71px;
+}
+.meniu a:link,
+.meniu a:visited {
+  color: white;
+  text-decoration: none;
+}
+.meniu a:hover,
+.meniu a.active {
+  background-color: #9bb8cd;
+}
+.wrapper img {
+  width: 100%;
+}
+.content {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 10px;
+}
+.left h1 {
+  color: #b99b6b;
+  font-size: 40px;
+}
+.left p {
+  font-size: 15px;
+}
+.title {
+  padding: 10px;
+}
+.text p {
+  padding: 20px 10px;
+}
+.item li {
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+  list-style: none;
+}
+.item li,
+.item p,
+.item h1 {
+  margin: 0px 10px 5px;
+}
+.item h1 {
+  background-color: #aa5656;
+  padding: 5px;
+  font-size: 20px;
+}
+.item p {
+  font-size: 15px;
+  line-height: 20px;
+}
+.item {
+  background-color: #f1dbbf;
+  margin: 20px 0px;
+  padding: 10px 0px;
+}
+.footer {
+  background-color: #c3e2c2;
+  text-align: center;
+  padding: 25px;
+}
+.clearfix {
+  clear: both;
+}
